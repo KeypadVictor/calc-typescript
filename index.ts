@@ -44,3 +44,5 @@ function addNumbers(): number {
 }
 addNumbers();
 
+// next change:
+// add a loop that allows calc to continue running after first answer, with an exit condition
