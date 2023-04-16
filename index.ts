@@ -5,7 +5,6 @@ function addNumbers(): number {
     let secondNumber: number;
     let answer: number = 0;
     let operator: string;
-    
 
     do {
         const input1: string = readline.question('Enter first number:');
@@ -43,8 +42,4 @@ function addNumbers(): number {
 
     return answer;
 }
-
-
 addNumbers();
-
-//console.log(`Answer: ${answer}`);
